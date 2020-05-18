@@ -13,14 +13,11 @@ require '../vendor/autoload.php';
 // add some random files
 $files = array(
 	'../extras/zip-appnote-6.3.1-20070411.txt',
-	'../zipstream.php',
 );
 
 // create new zip stream object
-$zip = new \Barracuda\ArchiveStream\ZipArchive('test.zip', array(
-	'comment' => 'this is a zip file comment.  hello?'
-));
-var_dump($zip);
+$zip = \Radionovel\ArchiveStream\Archive::zip('my', [], null);
+//var_dump($zip);
 
 // common file options
 $file_opt = array(

@@ -1,5 +1,5 @@
 <?php
-namespace Barracuda\ArchiveStream;
+namespace Radionovel\ArchiveStream;
 
 /**
  * Zip-formatted streaming archive.

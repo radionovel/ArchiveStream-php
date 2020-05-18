@@ -1,9 +1,9 @@
 {
-    "name": "barracudanetworks/archivestream-php",
+    "name": "radionovel/archive-stream-php",
     "type": "library",
     "description": "A library for dynamically streaming dynamic tar or zip files without the need to have the complete file stored on the server.",
     "keywords": ["zip", "tar", "archive", "stream", "php"],
-    "homepage": "https://github.com/barracudanetworks/ArchiveStream-php",
+    "homepage": "https://github.com/radionovel/archive-stream-php",
     "license": "MIT",
     "require": {
         "php": ">=5.1.2",
@@ -12,7 +12,7 @@
     },
     "autoload": {
 		"psr-4": {
-			"Barracuda\\ArchiveStream\\": "src/"
+			"Radionovel\\ArchiveStream\\": "src/"
 		}
 	}
 }

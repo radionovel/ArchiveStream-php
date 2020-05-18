@@ -1,5 +1,5 @@
 <?php
-namespace Barracuda\ArchiveStream;
+namespace Radionovel\ArchiveStream;
 
 /**
  * Tar-formatted streaming archive.
@@ -19,7 +19,7 @@ class TarArchive extends Archive
 	/**
 	 * Create a new TarArchive object.
 	 *
-	 * @see \Barracuda\ArchiveStream\Archive
+	 * @see \Radionovel\ArchiveStream\Archive
 	 */
 	public function __construct()
 	{
